@@ -1,0 +1,88 @@
+@import url(./style.css);
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 auto;
+    } 
+    section {
+        height: auto;
+    }
+    .logo {
+        width: 20%;
+    }
+    .logo img {
+        width: 100%;
+    }
+    header {
+        font-size: 2rem;
+        justify-content: space-around;
+    }
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        margin-top: 3rem;
+    }
+    .gallery-centr {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        row-gap: 3rem;
+    }
+    .gallery-centr img {
+        width: 100%;
+    }
+    .gallery-lside {
+        width: 80%;
+    }
+    .gallery-rside {
+        width: 80%;
+    }
+    .services-rblock {
+        display: none;
+    }
+    .services-lblock {
+        width: 100%;
+    }
+    .team-wrap {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+    }
+    .team-wrap div {
+        width: 80%;
+    }
+    .team h1 {
+        font-size: 4rem;
+    }
+    .contact {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        margin-top: 3rem;
+        row-gap: 3rem;
+    }
+    .map {
+        width: auto;
+    }
+    .coctact-us {
+        width: 80%;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .coctact-us p {
+        font-size: 3.5rem;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1620px ) {
+    body {
+        max-width: 1620px;
+        margin: 0 auto;
+    }  
+}
