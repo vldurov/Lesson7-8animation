@@ -32,11 +32,24 @@
     .gallery-centr img {
         width: 100%;
     }
+    .gallery-centr img:nth-child(odd) {
+        left: initial;
+        animation: barberfoto-rside 2s linear 1;
+        animation-fill-mode: forwards;
+    }
+    .gallery-centr img:nth-child(even) {
+        animation: barberfoto-lside 2s linear 1;
+        animation-fill-mode: forwards;
+    }
     .gallery-lside {
         width: 80%;
+        animation: barberfoto-lside 2s linear 1;
+        animation-fill-mode: forwards;
     }
     .gallery-rside {
         width: 80%;
+        animation: barberfoto-rside 2s linear 1;
+        animation-fill-mode: forwards;
     }
     .services-rblock {
         display: none;
@@ -59,7 +72,7 @@
         width: 80%;
     }
     .team h1 {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
     .contact {
         flex-direction: column-reverse;
@@ -82,6 +95,9 @@
     }
     .coctact-us p {
         font-size: 2rem;
+    }
+    .forms input, .forms textarea {
+        font-size: 1.5rem;
     }
     footer {
         flex-direction: column;
