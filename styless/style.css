@@ -24,6 +24,11 @@ header {
 
 .logo {
     background-color: white;
+    width: 15%;
+}
+
+.logo img {
+    width: 100%;
 }
 
 .header-navi {
@@ -140,7 +145,7 @@ section {
 .services-lblock div {
     position: relative;
     padding: 2.5rem;
-    width: 40%; 
+    width: 39%; 
 }
 
 .services-lblock div:nth-child(1) {
@@ -170,10 +175,6 @@ section {
 .services-rblock {
     width: 50%;
     overflow: hidden;
-}
-
-.services-rblock img {
-    width: 100%;
 }
 
 @keyframes move-round-job {
@@ -307,7 +308,7 @@ section {
 
 .contact {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     height: calc(100vh - 32.4rem);
     width: 100%;
     margin: 0 auto;
@@ -316,15 +317,16 @@ section {
 .coctact-us {
     width: 50%;
     font-style: italic;
+    padding: 1rem;
 }
 
 .coctact-us p {
     margin: 0;
-    font-size: 6.4rem;
+    font-size: 6rem;
 }
 
 .map {
-    width: 30%;
+    padding: 1rem;
 }
 
 .forms {

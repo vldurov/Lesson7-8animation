@@ -1,5 +1,97 @@
 @import url(./style.css);
 
+@media screen and (max-width: 992px) {
+    body {
+        margin: 0 auto;
+        font-size: 2.5rem;
+    } 
+    section {
+        margin-top: 3rem;
+        height: auto;
+    }
+    .logo {
+        width: 20%;
+    }
+    .gallery {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .gallery-lside {
+        order: 0;
+        width: 42%;
+        padding: 1rem;
+        animation: barberfoto-lside 2s linear 1;
+        animation-fill-mode: forwards;
+    }
+    .gallery-rside {
+        width: 42%;
+        order: 1;
+        padding: 1rem;
+        animation: barberfoto-rside 2s linear 1;
+        animation-fill-mode: forwards;
+    }
+    .gallery-centr {
+        width: 90%;
+        order: 2;
+        row-gap: 2rem;
+    }
+    .gallery-centr img:nth-child(odd) {
+        animation: barberfoto-lside 2s linear 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .gallery-centr img:nth-child(even) {
+        animation: barberfoto-rside 2s linear 1;
+        animation-fill-mode: forwards;
+    }
+    .services {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+    .services div {
+        width: 90%;
+    }
+    .services-lblock div {
+        width:40%;
+    }
+    .team-wrap {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 3rem;
+    }
+    .team h1 {
+        font-size: 5rem;
+    }
+    .team-wrap div {
+        width: 45%;
+    }
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        row-gap: 3rem;
+    }
+    .coctact-us {
+        width: 80%;
+    }
+    .coctact-us p {
+        margin-top: 3rem;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .map {
+        width: auto;
+    }
+    .map iframe {
+        width: 620px;
+        height: 440px;
+    }
+    footer {
+        font-size: 1.8rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     body {
         margin: 0 auto;
@@ -9,9 +101,6 @@
     }
     .logo {
         width: 20%;
-    }
-    .logo img {
-        width: 100%;
     }
     header {
         font-size: 1rem;
@@ -110,8 +199,10 @@
     .contact-massager img {
         width: 5%;
     }
+    .forms input {
+        width: calc(50% - 6rem);
+    }
 }
-
 @media screen and (min-width: 1620px ) {
     body {
         max-width: 1620px;
