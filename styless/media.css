@@ -195,12 +195,12 @@
         font-size: 1.5rem;
     }
     footer {
+        margin-top: 0;
         flex-direction: column;
         align-items: center;
         font-size: 1.5rem;
     }
     footer > div {
-            margin-top: 5rem;
         width: 80%;
     }
     .contact-massager img {
