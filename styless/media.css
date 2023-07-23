@@ -188,6 +188,9 @@
         font-size: 2.5rem;
         text-align: center;
     }
+    .contact-hours p:first-of-type {
+        margin-bottom: 0;
+    }
     .coctact-us p {
         font-size: 2rem;
     }
@@ -202,6 +205,7 @@
     }
     footer > div {
         width: 80%;
+        margin-top: 1rem;
     }
     .contact-massager img {
         width: 5%;
