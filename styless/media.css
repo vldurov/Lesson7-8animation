@@ -1,5 +1,11 @@
 @import url(./style.css);
 
+@media screen and (max-width: 1024px) {
+    footer {
+        margin-top: 13rem;
+    }
+}
+
 @media screen and (max-width: 992px) {
     body {
         margin: 0 auto;
