@@ -256,8 +256,7 @@ section {
     position: relative;
     text-align: center;
     width: 25%;
-    display: flex;
-    
+    display: flex; 
 }
 
 .team-wrap p {
@@ -297,8 +296,7 @@ section {
 
 .team-wrap:hover img {
     filter: brightness(30%);
-    transition: all .2s linear;
-    
+    transition: all .2s linear; 
 }
 
 .team-wrap img:hover {
